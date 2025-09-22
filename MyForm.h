@@ -1,6 +1,6 @@
 #pragma once
 
-namespace Проект1 {
+namespace ГЏГ°Г®ГҐГЄГІ1 {
 
 	using namespace System;
 	using namespace System::ComponentModel;
@@ -10,7 +10,7 @@ namespace Проект1 {
 	using namespace System::Drawing;
 
 	/// <summary>
-	/// Сводка для MyForm
+	/// Г‘ГўГ®Г¤ГЄГ  Г¤Г«Гї MyForm
 	/// </summary>
 	public ref class MyForm : public System::Windows::Forms::Form
 	{
@@ -19,13 +19,13 @@ namespace Проект1 {
 		{
 			InitializeComponent();
 			//
-			//TODO: добавьте код конструктора
+			//TODO: Г¤Г®ГЎГ ГўГјГІГҐ ГЄГ®Г¤ ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г 
 			//
 		}
 
 	protected:
 		/// <summary>
-		/// Освободить все используемые ресурсы.
+		/// ГЋГ±ГўГ®ГЎГ®Г¤ГЁГІГј ГўГ±ГҐ ГЁГ±ГЇГ®Г«ГјГ§ГіГҐГ¬Г»ГҐ Г°ГҐГ±ГіГ°Г±Г».
 		/// </summary>
 		~MyForm()
 		{
@@ -53,14 +53,14 @@ namespace Проект1 {
 
 	private:
 		/// <summary>
-		/// Требуется переменная конструктора.
+		/// Г’Г°ГҐГЎГіГҐГІГ±Гї ГЇГҐГ°ГҐГ¬ГҐГ­Г­Г Гї ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г .
 		/// </summary>
 		System::ComponentModel::Container ^components;
 
 #pragma region Windows Form Designer generated code
 		/// <summary>
-		/// Обязательный метод для поддержки конструктора - не изменяйте
-		/// содержимое данного метода при помощи редактора кода.
+		/// ГЋГЎГїГ§Г ГІГҐГ«ГјГ­Г»Г© Г¬ГҐГІГ®Г¤ Г¤Г«Гї ГЇГ®Г¤Г¤ГҐГ°Г¦ГЄГЁ ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г  - Г­ГҐ ГЁГ§Г¬ГҐГ­ГїГ©ГІГҐ
+		/// Г±Г®Г¤ГҐГ°Г¦ГЁГ¬Г®ГҐ Г¤Г Г­Г­Г®ГЈГ® Г¬ГҐГІГ®Г¤Г  ГЇГ°ГЁ ГЇГ®Г¬Г®Г№ГЁ Г°ГҐГ¤Г ГЄГІГ®Г°Г  ГЄГ®Г¤Г .
 		/// </summary>
 		void InitializeComponent(void)
 		{
@@ -90,7 +90,7 @@ namespace Проект1 {
 			this->label1->Name = L"label1";
 			this->label1->Size = System::Drawing::Size(59, 13);
 			this->label1->TabIndex = 0;
-			this->label1->Text = L"Прізвище ";
+			this->label1->Text = L"ГЏГ°ВіГ§ГўГЁГ№ГҐ ";
 			// 
 			// label2
 			// 
@@ -99,7 +99,7 @@ namespace Проект1 {
 			this->label2->Name = L"label2";
 			this->label2->Size = System::Drawing::Size(26, 13);
 			this->label2->TabIndex = 1;
-			this->label2->Text = L"Ім\'я";
+			this->label2->Text = L"ВІГ¬\'Гї";
 			this->label2->Click += gcnew System::EventHandler(this, &MyForm::label2_Click);
 			// 
 			// label3
@@ -109,7 +109,7 @@ namespace Проект1 {
 			this->label3->Name = L"label3";
 			this->label3->Size = System::Drawing::Size(98, 13);
 			this->label3->TabIndex = 2;
-			this->label3->Text = L"Дата народження";
+			this->label3->Text = L"Г„Г ГІГ  Г­Г Г°Г®Г¤Г¦ГҐГ­Г­Гї";
 			// 
 			// label4
 			// 
@@ -118,7 +118,7 @@ namespace Проект1 {
 			this->label4->Name = L"label4";
 			this->label4->Size = System::Drawing::Size(41, 13);
 			this->label4->TabIndex = 3;
-			this->label4->Text = L"Країна";
+			this->label4->Text = L"ГЉГ°Г ВїГ­Г ";
 			// 
 			// label5
 			// 
@@ -127,7 +127,7 @@ namespace Проект1 {
 			this->label5->Name = L"label5";
 			this->label5->Size = System::Drawing::Size(44, 13);
 			this->label5->TabIndex = 4;
-			this->label5->Text = L"Адреса";
+			this->label5->Text = L"ГЂГ¤Г°ГҐГ±Г ";
 			// 
 			// maskedTextBox1
 			// 
@@ -155,7 +155,7 @@ namespace Проект1 {
 			// comboBox1
 			// 
 			this->comboBox1->FormattingEnabled = true;
-			this->comboBox1->Items->AddRange(gcnew cli::array< System::Object^  >(3) {L"Україна", L"Бразилія", L"Колумбя"});
+			this->comboBox1->Items->AddRange(gcnew cli::array< System::Object^  >(3) {L"Г“ГЄГ°Г ВїГ­Г ", L"ГЃГ°Г Г§ГЁГ«ВіГї", L"ГЉГ®Г«ГіГ¬ГЎГї"});
 			this->comboBox1->Location = System::Drawing::Point(153, 166);
 			this->comboBox1->Name = L"comboBox1";
 			this->comboBox1->Size = System::Drawing::Size(98, 21);
